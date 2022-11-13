@@ -1,5 +1,4 @@
 ---
-Logo: img/meIcon.png
 Tagline: My portfolio.
 meImg: img/naderAlhamwi.jpg
 Social:

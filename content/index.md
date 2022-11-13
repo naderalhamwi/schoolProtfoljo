@@ -8,7 +8,7 @@ Home page
 
 
 <figure>
-    <img src="https://localhost/dbwebb-kurser/webtec/me/kmom01/public/img/naderAlhamwi.jpg" width="300"class="me" alt="Bild på mig">
+    <img src="assets/img/naderAlhamwi.jpg" width="200"class="me" alt="Bild på mig">
     <figcaption>Nader Alhamwi</figcaption>
 </figure>
 

@@ -1,0 +1,120 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile';
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Bubbles&family=Signika&display=swap');
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+ol ,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html ,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    padding: 1%;
+    overflow-y: scroll;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header ,
+.footer {
+    flex: 0 0 auto;
+}
+
+.header ,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title ,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+.me {
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.251);
+}
+
+.title:hover h1 ,
+.title:hover p {
+    color: #7fffd4;
+    text-decoration-color: #ac4c1e;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+p ,
+td ,
+th ,
+li ,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-family: 'Signika', sans-serif;
+}
+
+h1 ,
+h2 ,
+h3 ,
+h4 ,
+h5 ,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    color: #1e90ff;
+}
+
+h3 {
+    color: #ac4c1e;
+}
+
+img {
+    max-width: 100%;
+}
