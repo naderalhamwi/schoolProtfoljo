@@ -2,6 +2,7 @@
 @import 'variables';
 @import 'blockquotes';
 @import 'code';
+@import 'tech';
 @import 'mobile';
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Bubbles&family=Signika&display=swap');
 
@@ -30,13 +31,14 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #1e1e1e;
+    background-color: $master-background-color;
     padding: 1%;
     overflow-y: scroll;
 }
 
 .main {
     flex: 1 0 auto;
+    text-align: center;
 }
 
 .header ,
@@ -90,7 +92,7 @@ td ,
 th ,
 li ,
 dd {
-    text-align: justify;
+    text-align: left;
     overflow-wrap: break-word;
     word-wrap: break-word;
     font-family: 'Signika', sans-serif;
@@ -102,6 +104,7 @@ h3 ,
 h4 ,
 h5 ,
 h6 {
+    text-align: left;
     margin-bottom: 0.6em;
     font-weight: bold;
     font-family: 'Indie Flower', cursive;

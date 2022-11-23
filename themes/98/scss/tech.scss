@@ -1,0 +1,185 @@
+.techcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 1%;
+    justify-content: center;
+
+    p {
+        text-align: center;
+    }
+}
+
+.tech-main {
+    display: grid;
+    grid-template-columns: 10% auto;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    grid-gap: 5%;
+
+    textarea {
+        width: 100%;
+        height: 50%;
+        resize: none;
+        border: 15px solid $master-background-color;
+        background-color: $master-background-color;
+        color: #fff;
+    }
+}
+
+.tech {
+    background-color: $background-color-tech;
+    text-decoration: none;
+    padding: 20% 0;
+}
+
+.tech-nav {
+    li {
+        list-style: none;
+        
+        a {
+            text-decoration: none;
+            
+            &:hover {
+                color: #ff7f37;
+            }
+        }
+    }
+    
+}
+
+.tech-header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+}
+
+.tech-python {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 200px;
+
+    &:hover {
+        background-image: url('https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHl0aG9uJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80');
+        background-size: cover;
+
+        p {
+            font-weight: bold;
+            font-size: xx-large;
+            color: #fff;
+            background-color: #77ff37;
+        }
+    }
+}
+
+.tech-html {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 200px;
+    padding: 40% 0;
+
+    &:hover {
+        background-image: url('https://www.wikitechy.com/html/img/background-img/background-image-using-css.png');
+        background-size: cover;
+
+        p {
+            font-weight: bold;
+            font-size: xx-large;
+            color: #fff;
+            background-color: #ff7f37;
+        }
+    }
+}
+
+.tech-js {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: #ffdf37;
+
+    &:hover {
+        background-image: url('https://wallpaperaccess.com/full/1555146.png');
+        background-size: cover;
+
+        p {
+            font-weight: bold;
+            font-size: xx-large;
+            color: #000;
+            background-color: #ffdf37;
+        }
+    }
+}
+
+.tech-sqlite {
+    grid-row-start: 4;
+    grid-row-end: 6;
+
+    p {
+        margin-top: 100%;
+        transform: rotate(-90deg);
+    }
+
+    &:hover {
+        background-image: url('https://thumbs.dreamstime.com/b/code-sql-syntax-29654491.jpg');
+        background-size: cover;
+
+        p {
+            color: #000;
+            background-color: #37dbff;
+        }
+    }
+}
+
+.tech-git {
+    &:hover {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Git_session.svg/1200px-Git_session.svg.png');
+        background-size: cover;
+
+        p {
+            color: #fff;
+            background-color: #ff3737;
+        }
+    }
+}
+
+.tech-php {
+    padding: 40% 0;
+
+    &:hover {
+        background-image: url('https://as2.ftcdn.net/v2/jpg/04/93/22/03/1000_F_493220326_hET6xFDkhvE13LcAlNYgv0CQnzTdQxfQ.jpg');
+        background-size: cover;
+
+        p {
+            color: #fff;
+            background-color: #6b37ff;
+        }
+    }
+}
+
+.tech-css {
+    &:hover {
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/900/618/451/pixels-computer-screen-css-code-wallpaper-preview.jpg');
+        background-size: cover;
+
+        p {
+            color: #fff;
+            background-color: #377bff;
+        }
+    }
+}
+
+.tech-scss {
+    &:hover {
+        background-image: url('https://uploads.toptal.io/blog/image/91625/toptal-blog-image-1441289939715-f71ac4c4849110d4a414f2d4d939c2dd.jpg');
+        background-size: cover;
+
+        p {
+            color: #fff;
+            background-color: #e337ff;
+        }
+    }
+}

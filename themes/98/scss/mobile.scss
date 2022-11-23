@@ -73,4 +73,29 @@ a:hover {
     .logo {
         max-width: 30%;
     }
+    
+    .tech-main {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 10% auto;
+    }
+
+    .tech-nav {
+        ul {
+            li {
+                padding: 1%;
+                margin: 1%;
+                background-color: #ff7f37;
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
 }
